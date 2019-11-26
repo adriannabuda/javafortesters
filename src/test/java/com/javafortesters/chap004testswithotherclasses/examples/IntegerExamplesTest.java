@@ -29,4 +29,16 @@ public class IntegerExamplesTest {
         assertEquals("MIN value equals -2147483648", min, Integer.MIN_VALUE);
         assertEquals("MAX value equals 2147483647", max, Integer.MAX_VALUE);
     }
+
+    @Test
+    public void IsMinMAXValue2(){
+
+       int min2 = Integer.MIN_VALUE;
+       int max2 = Integer.MAX_VALUE;
+
+
+        assertEquals("MIN value equals -2147483648", -2147483648, min2);
+        assertEquals("MAX value equals 2147483647", 2147483647, max2);
+    }
+
 }
