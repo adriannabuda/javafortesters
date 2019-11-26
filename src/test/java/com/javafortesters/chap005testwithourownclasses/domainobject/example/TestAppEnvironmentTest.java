@@ -18,7 +18,7 @@ public class TestAppEnvironmentTest {
     public void GetDomainAndPort(){
 
         assertEquals("Get domain bro",
-                "192.123.0.2",
+                "192.123.0.3",
                 TestAppEnv.DOMAIN);
 
         assertEquals("Get port bro",
